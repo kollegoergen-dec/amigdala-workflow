@@ -1,0 +1,64 @@
+- Final Energy|Industry|Chemicals:
+    description: Final energy consumption by the chemicals sector excluding feedstocks
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Industry|Chemicals|Fossil solids:
+    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil solids, including coke
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Industry|Chemicals|Fossil liquids:
+    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil liquids, including oil products
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Industry|Chemicals|Fossil gases:
+    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil gases, inclding natural gas
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Industry|Chemicals|Renewables and biofuels:
+    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of renewables and biofuels
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Industry|Chemicals|Electricity:
+    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of electricity
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Industry|Chemicals|Heat:
+    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of heat
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Industry|Chemicals|Non-renewable waste:
+    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of non-renewable waste
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Non-Energy Use|Industry:
+    description: Final energy consumption of the industry sector in non-combustion processes
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Non-Energy Use|Industry|Fosil gases:
+    description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil gases, inclding natural gas
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Non-Energy Use|Industry|Fossil liquids:
+    description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil liquids, including oil products
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Non-Energy Use|Industry|Fossil solids:
+    description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil solids, including coke
+    unit: ktoe
+    climate_neutrality_dimension: D1
+
+- Final Energy|Renewables share: 
+    description: Share of renewable energy in gross final consumption of energy (Eurostat indicator)
+    unit: '%''
+    climate_neutrality_dimension: D1

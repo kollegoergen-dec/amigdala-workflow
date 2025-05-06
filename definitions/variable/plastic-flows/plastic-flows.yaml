@@ -1,0 +1,14 @@
+- Plastic flows|Production:
+    description: Overall plastics production
+    unit: kt
+    climate_neutrality_dimension: D5
+
+- Plastic flows|Production|Biobased share:
+    description: Share of biobased plastics in overall plastics production
+    unit: '%'
+    climate_neutrality_dimension: D5
+
+- Plastic flows|Production|Recycled share:
+    description: Share of recycled plastics in overall plastics production
+    unit: '%'
+    climate_neutrality_dimension: D5
