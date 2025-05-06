@@ -60,5 +60,5 @@
 
 - Final Energy|Renewables share: 
     description: Share of renewable energy in gross final consumption of energy (Eurostat indicator)
-    unit: '%''
+    unit: '%'
     climate_neutrality_dimension: D1
