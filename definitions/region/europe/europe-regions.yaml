@@ -1,0 +1,25 @@
+- Europe:
+    - EU27+3:
+        description: European Union and the United Kingdom, Norway and Switzerland
+        countries: [
+          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland,
+          France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg,
+          Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain,
+          Sweden, United Kingdom, Norway, Switzerland
+        ]
+
+    - EU27:
+        description: European Union without the United Kingdom, Norway and Switzerland
+        countries: [
+          Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland,
+          France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg,
+          Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain,
+          Sweden
+        ]
+    
+    - EU15:
+        description: European Union before the 2004 enlargement
+        countries: [
+          Austria, Belgium, Denmark, Finland, France, Germany, Greece, Ireland, Italy,
+          Luxembourg, Netherlands, Portugal, Spain, Sweden, United Kingdom
+        ]
