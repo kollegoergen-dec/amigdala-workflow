@@ -10,6 +10,8 @@ Copyright 2025 IIASA and the AMIGDALA consortium
 
 AMIGDALA is a Horizon Europe project that aims to help decision-makers in governments and industry define and evaluate pathways and market uptakes of transformative solutions for circular, climate-neutral, and competitive industries
 
+>For users not comfortable working with GitHub repositories and yaml files, the definitions for this project are available for download as an xlsx spreadsheet at http://files.ece.iiasa.ac.at/amigdala/amigdala-template.xlsx.
+
 ## Funding acknowledgement
 
 <img src="https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/00f3f755-f221-5b7f-855f-f7fa2afe4a0a/01a84265-e09c-5682-92ce-681c89a1afe2.jpg" width="80" height="54" align="left" alt="EU logo">
