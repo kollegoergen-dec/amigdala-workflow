@@ -1,0 +1,9 @@
+- Emissions|Kyoto Gases|Industrial Processes|Chemicals:
+    description: Emissions of greenhouse gases from the petrochemical sector (CO2, N2O, CH4, HFC, PFC, SF6, NF3 all in CO2 equivalent)
+    unit: kt CO2eq
+    climate_neutrality_dimension: D2
+
+- Emissions|Kyoto Gases|Industrial Processes|Chemicals|Petrochemicals:
+    description: Emissions of greenhouse gases from the petrochemical sector (CO2, N2O, CH4, HFC, PFC, SF6, NF3 all in CO2 equivalent)
+    unit: kt CO2eq
+    climate_neutrality_dimension: D2

@@ -1,0 +1,21 @@
+- Material Flows|Material Use|Fossil:
+    description: Material use of fossil energy materials/carriers (Eurostat material category MF4)
+    unit: ktpa
+    climate_neutrality_dimension: D3
+
+- Material Flows|Circularity [Rate]:
+    description: Circular material use rate (Eurostat indicator) - share of material (biomass, metal ores, non-metallic minerals, fossil energy materials/carriers) recycled and fed back into the economy
+    unit: '%'
+    range: [ 0,100 ]
+    climate_neutrality_dimension: D3
+
+- Material Flows|Circularity|Fossil [Rate]:
+    description: Circular fossil material use rate (Eurostat indicator) - share of fossil energy materials/carriers recycled and fed back into the economy
+    unit: '%'
+    range: [ 0,100 ]
+    climate_neutrality_dimension: D3
+
+- Material Flows|Recycling|Fossil:
+    description: Recycling and backfilling of fossil energy materials/carriers (Eurostat material category MF4)
+    unit: ktpa
+    climate_neutrality_dimension: D5

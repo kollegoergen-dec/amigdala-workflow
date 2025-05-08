@@ -1,0 +1,4 @@
+- Price|CO2|EU ETS 1:
+    description: Price of the CO2 from the European ETS system
+    unit: US$/tCO2
+    climate_neutrality_dimension: D2
