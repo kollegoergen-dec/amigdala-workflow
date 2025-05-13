@@ -43,7 +43,7 @@
     unit: ktoe
     climate_neutrality_dimension: D1
 
-- Final Energy|Non-Energy Use|Industry|Fosil Gases:
+- Final Energy|Non-Energy Use|Industry|Fossil Gases:
     description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil gases, inclding natural gas
     unit: ktoe
     climate_neutrality_dimension: D1
