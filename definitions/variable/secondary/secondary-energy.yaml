@@ -1,14 +1,14 @@
-- Secondary energy input|Steamcracking|Naphta:
-    description: Secondary energy consumption of naphta for steamcracking (production of high value chemicals)
+- Secondary Energy Input|Steamcracking|Naphtha:
+    description: Secondary energy consumption of naphtha for steamcracking (production of high value chemicals)
     unit: ktpa
     climate_neutrality_dimension: D3
 
-- Secondary energy input|Steamcracking|LPG:
+- Secondary Energy Input|Steamcracking|LPG:
     description: Secondary energy consumption of LPG for steamcracking (production of high value chemicals)
     unit: ktpa
     climate_neutrality_dimension: D3
 
-- Secondary energy input|Steamcracking|Other:
+- Secondary Energy Input|Steamcracking|Other:
     description: Secondary energy consumption of other (gasoil, ethane, CC4+,etc…) for steamcracking (production of high value chemicals)
     unit: ktpa
     climate_neutrality_dimension: D3
