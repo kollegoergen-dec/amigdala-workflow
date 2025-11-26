@@ -12,3 +12,17 @@
     description: Secondary energy consumption of other (gasoil, ethane, CC4+,etc…) for steamcracking (production of high value chemicals)
     unit: ktpa
     climate_neutrality_dimension: D3
+
+
+- Secondary Energy|Biomass|Bio-SynGas
+    description: Production of bio syngas from biomass
+    unit: EJ
+
+- Secondary Energy|Biomass|Charcoal
+    description: Production of charcoal from biomass
+    unit: EJ
+
+- Secondary Energy|Biomass|Ethanol from Crop
+    description: Production of ethanol form crops (biomass)
+    unit: EJ
+ 
