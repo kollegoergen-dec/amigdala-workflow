@@ -27,7 +27,7 @@
     description: Price for heavy fuel oil
     unit: EUR_2020/GJ
 
-- Price|Natural Gas
+- Price|Natural Gas:
     description: Price for natural gas
     unit: EUR_2020/GJ
 
