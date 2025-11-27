@@ -364,7 +364,7 @@
     description: Final energy consumption by the industry sector iron and steel from heavy fuel oil 
     unit: EJ/year
 
-- Final Energy|Industry|Iron and Steel|Liquefied Petroleum Gas
+- Final Energy|Industry|Iron and Steel|Liquefied Petroleum Gas:
     description: Final energy consumption by the industry sector iron and steel from liquefied petroleum gas
     unit: EJ/year
 
@@ -448,11 +448,11 @@
     description: Final energy consumption by the industry sector non-ferrous metals from oven coke 
     unit: EJ/year
 
-- Final Energy|Industry|Non-Ferrous Metals|Refined Petroleum Products
+- Final Energy|Industry|Non-Ferrous Metals|Refined Petroleum Products:
     description: Final energy consumption by the industry sector non-ferrous metals from refined petroleum products 
     unit: EJ/year
     
-- Final Energy|Industry|Others|:
+- Final Energy|Industry|Others|Biofuels:
     description: Final energy consumption by the industry sector others from biofuels 
     unit: EJ/year
 
@@ -535,7 +535,6 @@
 - Final Energy|Industry|Pulp and Paper|Refined Petroleum Products:
     description: Final energy consumption by the industry sector pulp and paper from refined petroleum products 
     unit: EJ/year
-
 
 - Final Energy|Residential|Appliances|Electricity:
     description: Final energy consumption by the residential sector for appliances from electricity
@@ -932,6 +931,3 @@
 - Final Energy|Transportation|Road|Trucks|Liquefied Petroleum Gas:
     description: Final energy consumption by the transportation on road sector for trucks from liquefied petroleum gas
     unit: EJ/year
-
-
-

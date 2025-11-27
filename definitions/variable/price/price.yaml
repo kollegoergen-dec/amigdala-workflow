@@ -39,7 +39,6 @@
     description: Price for synthetic hydrogen
     unit: EUR_2020/GJ
 
-
 - Price|CAPEX|Commercial|Cooking:
     description: Price of capital expenditures (CAPEX) in the commercial sector for cooking
     unit: mln EUR_2005
@@ -136,7 +135,6 @@
     description: Price of capital expenditures (CAPEX) in the transportation sector for trucks on road
     unit: mln EUR_2005
 
-
 - Price|OPEX|Commercial|Cooking:
     description: Price of operational expenditures (OPEX) in the commercial sector for cooking
     unit: mln EUR_2005
@@ -228,5 +226,3 @@
 - Price|OPEX|Transportation|Road|Trucks:
     description: Price of operational expenditures (OPEX) in the transportation sector for trucks road
     unit: mln EUR_2005
-
-
