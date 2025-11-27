@@ -65,11 +65,11 @@
 #     climate_neutrality_dimension: D1
 
 - Final Energy|Agriculture|Biodiesel:
-    description: Final energy consumption by the agriculture sector from biodiesel	
+    description: Final energy consumption by the agriculture sector from biodiesel
     unit: EJ/year
 
 - Final Energy|Agriculture|Biomass: 
-    description: Final energy consumption by the agriculture sector from biomass 
+    description: Final energy consumption by the agriculture sector from biomass
     unit: EJ/year
 
 - Final Energy|Agriculture|Coal:
