@@ -357,7 +357,7 @@
     unit: EJ/year
 
 - Final Energy|Industry|Iron and Steel|Heat:
-    description: Final energy consumption by the industry sector iron and steel from heat 
+    description: Final energy consumption by the industry sector iron and steel from heat
     unit: EJ/year
 
 - Final Energy|Industry|Iron and Steel|Heavy Fuel Oil:
@@ -408,12 +408,12 @@
     description: Final energy consumption by the industry sector non metals from oven coke 
     unit: EJ/year
 
-- Final Energy|Industry|Non Metals|Petroleum Coke
+- Final Energy|Industry|Non Metals|Petroleum Coke:
     description: Final energy consumption by the industry sector non metals from petroleum coke
     unit: EJ/year
 
 - Final Energy|Industry|Non Metals|Refined Petroleum Products:
-    description: Final energy consumption by the industry sector non metals from refined petroleum products 
+    description: Final energy consumption by the industry sector non metals from refined petroleum products
     unit: EJ/year
 
 - Final Energy|Industry|Non-Ferrous Metals|Biofuels:
@@ -457,7 +457,7 @@
     unit: EJ/year
 
 - Final Energy|Industry|Others|Coal:
-    description: Final energy consumption by the industry sector others from coal 
+    description: Final energy consumption by the industry sector others from coal
     unit: EJ/year
 
 - Final Energy|Industry|Others|Coke Oven Gas:
