@@ -20,25 +20,25 @@
 
 - Primary Energy|Biomass|Energy Crops
     description: Primary energy input of biomass for bioenergy crops
-    unit: EJ
+    unit: EJ/year
 
 - Primary Energy|Biomass|Gases
     description: Primary energy input of biomass for conversion to gaseous fuels not including hydrogen
-    unit: EJ
+    unit: EJ/year
 
 - Primary Energy|Biomass|Industrial Waste
     description: Primary energy input from industrial waste
-    unit: EJ
+    unit: EJ/year
 
 - Primary Energy|Biomass|Liquids
     description: Primary energy input of biomass for conversion to refined liquid fuels including oil products, fuels from gas and coal, synthetic fossil fuels and biofuels
-    unit: EJ
+    unit: EJ/year
 
 - Primary Energy|Biomass|Municipal Waste
     description: Primary energy input from municipal waste
-    unit: EJ
+    unit: EJ/year
 
 - Primary Energy|Biomass|Solids
     description: Primary energy input of biomass for conversion to solid fuels
-    unit: EJ
+    unit: EJ/year
 

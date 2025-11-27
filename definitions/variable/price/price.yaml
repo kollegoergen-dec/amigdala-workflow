@@ -5,7 +5,7 @@
 
 - Price|Carbon
     description: Price for any type of Carbon (also outside of EU ETS1)
-    unit: EUR_2020/ tCO2
+    unit: EUR_2020/tCO2
 
 - Price|Brown Coal
     description: Price for brown coal 
@@ -108,8 +108,8 @@
     description: Price of capital expenditures (CAPEX) in the residential sector for space heating
     unit: mln EUR_2005
 
-- Price|CAPEX|Residnetial|Appliances
-    description: Price of capital expenditures (CAPEX) in the residnetial sector for appliances
+- Price|CAPEX|Residential|Appliances
+    description: Price of capital expenditures (CAPEX) in the residential sector for appliances
     unit: mln EUR_2005
 
 - Price|CAPEX|Transportation|Navigation|Domestic
