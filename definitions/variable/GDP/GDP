@@ -1,5 +1,5 @@
 - GDP:
-    description: GDP converted to USD
-    unit: USD2005
+    description: gross domestic product
+    unit: M€
 
     
