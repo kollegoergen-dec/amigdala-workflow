@@ -1,65 +1,933 @@
-- Final Energy|Industry|Chemicals:
-    description: Final energy consumption by the chemicals sector excluding feedstocks
-    unit: ktoe
-    climate_neutrality_dimension: D1
+# - Final Energy|Industry|Chemicals:
+#     description: Final energy consumption by the chemicals sector excluding feedstocks
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
 
-- Final Energy|Industry|Chemicals|Fossil Solids:
-    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil solids, including coke
-    unit: ktoe
-    climate_neutrality_dimension: D1
+# - Final Energy|Industry|Chemicals|Fossil Solids:
+#     description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil solids, including coke
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
 
-- Final Energy|Industry|Chemicals|Fossil Liquids:
-    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil liquids, including oil products
-    unit: ktoe
-    climate_neutrality_dimension: D1
+# - Final Energy|Industry|Chemicals|Fossil Liquids:
+#     description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil liquids, including oil products
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
 
-- Final Energy|Industry|Chemicals|Fossil Gases:
-    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil gases, inclding natural gas
-    unit: ktoe
-    climate_neutrality_dimension: D1
+# - Final Energy|Industry|Chemicals|Fossil Gases:
+#     description: Final energy consumption by the chemicals sector excluding feedstocks, in form of fossil gases, including natural gas
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
 
-- Final Energy|Industry|Chemicals|Renewables and Biofuels:
-    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of renewables and biofuels
-    unit: ktoe
-    climate_neutrality_dimension: D1
+# - Final Energy|Industry|Chemicals|Renewables and Biofuels:
+#     description: Final energy consumption by the chemicals sector excluding feedstocks, in form of renewables and biofuels
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
+
+# - Final Energy|Industry|Chemicals|Electricity:
+#     description: Final energy consumption by the chemicals sector excluding feedstocks, in form of electricity
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
+
+# - Final Energy|Industry|Chemicals|Heat:
+#     description: Final energy consumption by the chemicals sector excluding feedstocks, in form of heat
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
+
+# - Final Energy|Industry|Chemicals|Non-Renewable Waste:
+#     description: Final energy consumption by the chemicals sector excluding feedstocks, in form of non-renewable waste
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
+
+# - Final Energy|Non-Energy Use|Industry:
+#     description: Final energy consumption of the industry sector in non-combustion processes
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
+
+# - Final Energy|Non-Energy Use|Industry|Fossil Gases:
+#     description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil gases, inclding natural gas
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
+
+# - Final Energy|Non-Energy Use|Industry|Fossil Liquids:
+#     description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil liquids, including oil products
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
+
+# - Final Energy|Non-Energy Use|Industry|Fossil Solids:
+#     description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil solids, including coke
+#     unit: ktoe
+#     climate_neutrality_dimension: D1
+
+# - Final Energy|Renewables [Share]:
+#     description: Share of renewable energy in gross final consumption of energy (Eurostat indicator)
+#     unit: '%'
+#     range: [ 0,100 ]
+#     climate_neutrality_dimension: D1
+
+- Final Energy|Agriculture|Biodiesel:
+    description: Final energy consumption by the agriculture sector from biodiesel
+    unit: EJ/year
+
+- Final Energy|Agriculture|Biomass: 
+    description: Final energy consumption by the agriculture sector from biomass
+    unit: EJ/year
+
+- Final Energy|Agriculture|Coal:
+    description: Final energy consumption by the agriculture sector from coal
+    unit: EJ/year
+
+- Final Energy|Agriculture|Diesel:
+    description: Final energy consumption by the agriculture sector from diesel
+    unit: EJ/year
+
+- Final Energy|Agriculture|Electricity:
+    description: Final energy consumption by the agriculture sector from electricity
+    unit: EJ/year
+
+- Final Energy|Agriculture|Gas:
+    description: Final energy consumption by the agriculture sector from gas
+    unit: EJ/year
+
+- Final Energy|Agriculture|Gasoline:
+    description: Final energy consumption by the agriculture sector from gasoline
+    unit: EJ/year
+
+- Final Energy|Agriculture|Geothermal:
+    description: Final energy consumption by the agriculture sector from geothermal energy
+    unit: EJ/year
+
+- Final Energy|Agriculture|Heat:
+    description: Final energy consumption by the agriculture sector from heat
+    unit: EJ/year
+
+- Final Energy|Agriculture|Heavy Fuel:
+    description: Final energy consumption by the agriculture sector from heavy fuel oil
+    unit: EJ/year
+
+- Final Energy|Agriculture|Hydrogen:
+    description: Final energy consumption by the agriculture sector from hydrogen
+    unit: EJ/year
+
+- Final Energy|Agriculture|Kerosene:
+    description: Final energy consumption by the agriculture sector from kerosene
+    unit: EJ/year
+
+- Final Energy|Agriculture|Liquefied Petroleum Gas:
+    description: Final energy consumption by the agriculture sector from liquefied petroleum gas
+    unit: EJ/year
+
+- Final Energy|Agriculture|Solar:
+    description: Final energy consumption by the agriculture sector from solar energy
+    unit: EJ/year
+
+- Final Energy|Agriculture|Solid Biomass:
+    description: Final energy consumption by the agriculture sector from solid biomass
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooking|Biomass:
+    description: Final energy consumption by the commercial sector for cooking from biomass
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooking|Coal:
+    description: Final energy consumption by the commercial sector for cooking from coal
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooking|Diesel:
+    description: Final energy consumption by the commercial sector for cooking from diesel
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooking|Electricity:
+    description: Final energy consumption by the commercial sector for cooking from electricity
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooking|Gas:
+    description: Final energy consumption by the commercial sector for cooking from gas
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooking|Kerosene:
+    description: Final energy consumption by the commercial sector for cooking from kerosene
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooking|Liquefied Petroleum Gas:
+    description: Final energy consumption by the commercial sector for cooking from liquified petroleum gas
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooking|Solid Biomass:
+    description: Final energy consumption by the commercial sector for cooking from solid biomass
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooling|Diesel:
+    description: Final energy consumption by the commercial sector for cooling from diesel
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooling|Electricity:
+    description: Final energy consumption by the commercial sector for cooling from electricity
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooling|Gas:
+    description: Final energy consumption by the commercial sector for cooling from gas
+    unit: EJ/year
+
+- Final Energy|Commercial|Cooling|Geothermal:
+    description: Final energy consumption by the commercial sector for cooling from geothermal
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Biomass:
+    description: Final energy consumption by the commercial sector for hot water from biomass
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Coal:
+    description: Final energy consumption by the commercial sector for hot water from coal
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Diesel:
+    description: Final energy consumption by the commercial sector for hot water from diesel
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Elecritcity:
+    description: Final energy consumption by the commercial sector for hot water from elecritcity
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Gas:
+    description: Final energy consumption by the commercial sector for hot water from gas
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Geothermal:
+    description: Final energy consumption by the commercial sector for hot water from geothermal
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Heat:
+    description: Final energy consumption by the commercial sector for hot water from heat
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Heavy Fuel Oil:
+    description: Final energy consumption by the commercial sector for hot water from heavy fuel oil
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Kerosene:
+    description: Final energy consumption by the commercial sector for hot water from kerosene
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Liquefied Petroleum Gas:
+    description: Final energy consumption by the commercial sector for hot water from liquefied petroleum gas
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Solar:
+    description: Final energy consumption by the commercial sector for hot water from solar energy
+    unit: EJ/year
+
+- Final Energy|Commercial|Hot Water|Solid Biomass:
+    description: Final energy consumption by the commercial sector for hot water from solid biomass
+    unit: EJ/year
+
+- Final Energy|Commercial|OfficeEquipment|Electricity:
+    description: Final energy consumption by the commercial sector for office equipment from electricity
+    unit: EJ/year
+
+- Final Energy|Commercial|Others|Diesel:
+    description: Final energy consumption by the commercial sector for other from diesel
+    unit: EJ/year
+
+- Final Energy|Commercial|Others|Electricity:
+    description: Final energy consumption by the commercial sector for other from electricity
+    unit: EJ/year
+
+- Final Energy|Commercial|Others|Gas:
+    description: Final energy consumption by the commercial sector for other from gas
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Biomass:
+    description: Final energy consumption by the commercial sector for space heating from biomass
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Coal:
+    description: Final energy consumption by the commercial sector for space heating from coal
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Diesel:
+    description: Final energy consumption by the commercial sector for space heating from diesel
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Electricity:
+    description: Final energy consumption by the commercial sector for space heating from electricity
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Gas:
+    description: Final energy consumption by the commercial sector for space heating from gas 
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Geothermal:
+    description: Final energy consumption by the commercial sector for space heating from geothermal 
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Heat:
+    description: Final energy consumption by the commercial sector for space heating from heat 
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Heavy Fuel Oil:
+    description: Final energy consumption by the commercial sector for space heating from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Kerosene:
+    description: Final energy consumption by the commercial sector for space heating from kerosene 
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Liquefied Petroleum Gas:
+    description: Final energy consumption by the commercial sector for space heating from liquefied petroleum gas 
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Solar:
+    description: Final energy consumption by the commercial sector for space heating from solar energy 
+    unit: EJ/year
+
+- Final Energy|Commercial|Space Heating|Solid Biomass:
+    description: Final energy consumption by the commercial sector for space heating from solid biomass 
+    unit: EJ/year
+
+- Final Energy|Industry|Chemicals|Biofuels:
+    description: Final energy consumption by the industry sector chemicals from biofuels
+    unit: EJ/year
+
+- Final Energy|Industry|Chemicals|Biomass:
+    description: Final energy consumption by the industry sector chemicals from biomass 
+    unit: EJ/year
+
+- Final Energy|Industry|Chemicals|Coal:
+    description: Final energy consumption by the industry sector chemicals from coal
+    unit: EJ/year
 
 - Final Energy|Industry|Chemicals|Electricity:
-    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of electricity
-    unit: ktoe
-    climate_neutrality_dimension: D1
+    description: Final energy consumption by the industry sector chemicals from electricity
+    unit: EJ/year
+
+- Final Energy|Industry|Chemicals|Ethane:
+    description: Final energy consumption by the industry sector chemicals from ethane
+    unit: EJ/year
+
+- Final Energy|Industry|Chemicals|Gases:
+    description: Final energy consumption by the industry sector chemicals from gases
+    unit: EJ/year
 
 - Final Energy|Industry|Chemicals|Heat:
-    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of heat
-    unit: ktoe
-    climate_neutrality_dimension: D1
+    description: Final energy consumption by the industry sector chemicals from heat 
+    unit: EJ/year
 
-- Final Energy|Industry|Chemicals|Non-Renewable Waste:
-    description: Final energy consumption by the chemicals sector excluding feedstocks, in form of non-renewable waste
-    unit: ktoe
-    climate_neutrality_dimension: D1
+- Final Energy|Industry|Chemicals|Heavy Fuel Oil:
+    description: Final energy consumption by the industry sector chemicals from heavy fuel oil 
+    unit: EJ/year
 
-- Final Energy|Non-Energy Use|Industry:
-    description: Final energy consumption of the industry sector in non-combustion processes
-    unit: ktoe
-    climate_neutrality_dimension: D1
+- Final Energy|Industry|Chemicals|Liquefied Petroleum Gas:
+    description: Final energy consumption by the industry sector chemicals from liquefied petroleum gas
+    unit: EJ/year
 
-- Final Energy|Non-Energy Use|Industry|Fossil Gases:
-    description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil gases, inclding natural gas
-    unit: ktoe
-    climate_neutrality_dimension: D1
+- Final Energy|Industry|Chemicals|Naphtha:
+    description: Final energy consumption by the industry sector chemicals from naphta 
+    unit: EJ/year
 
-- Final Energy|Non-Energy Use|Industry|Fossil Liquids:
-    description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil liquids, including oil products
-    unit: ktoe
-    climate_neutrality_dimension: D1
+- Final Energy|Industry|Chemicals|Ovencoke:
+    description: Final energy consumption by the industry sector chemicals from ovencoke
+    unit: EJ/year
 
-- Final Energy|Non-Energy Use|Industry|Fossil Solids:
-    description: Final energy consumption of the industry sector in non-combustion processes, in form of fossil solids, including coke
-    unit: ktoe
-    climate_neutrality_dimension: D1
+- Final Energy|Industry|Chemicals|Refined Petroleum Products:
+    description: Final energy consumption by the industry sector chemicals from refined petroleum products 
+    unit: EJ/year
 
-- Final Energy|Renewables [Share]:
-    description: Share of renewable energy in gross final consumption of energy (Eurostat indicator)
-    unit: '%'
-    range: [ 0,100 ]
-    climate_neutrality_dimension: D1
+- Final Energy|Industry|Iron and Steel|Biofuels:
+    description: Final energy consumption by the industry sector iron and steel from biofuels 
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Blast Furnace Gas:
+    description: Final energy consumption by the industry sector iron and steel from blast furnace gas
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Coal:
+    description: Final energy consumption by the industry sector iron and steel from coal 
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Coke Oven Gas:
+    description: Final energy consumption by the industry sector iron and steel from coke oven gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Electricity:
+    description: Final energy consumption by the industry sector iron and steel from electricity 
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Gas:
+    description: Final energy consumption by the industry sector iron and steel from gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Heat:
+    description: Final energy consumption by the industry sector iron and steel from heat
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Heavy Fuel Oil:
+    description: Final energy consumption by the industry sector iron and steel from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Liquefied Petroleum Gas:
+    description: Final energy consumption by the industry sector iron and steel from liquefied petroleum gas
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Oxygen Steel Furnace Gas:
+    description: Final energy consumption by the industry sector iron and steel from oxygen steel furnace gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Iron and Steel|Refined Petroleum Products:
+    description: Final energy consumption by the industry sector iron and steel from refined petroleum products 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Biofuels:
+    description: Final energy consumption by the industry sector non metals from biofuels 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Coal:
+    description: Final energy consumption by the industry sector non metals from coal 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Electritity:
+    description: Final energy consumption by the industry sector non metals from electritity 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Gas:
+    description: Final energy consumption by the industry sector non metals from gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Heat:
+    description: Final energy consumption by the industry sector non metals from heat 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Heavy Fuel Oil:
+    description: Final energy consumption by the industry sector non metals from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Liquefied Petroleum Gas:
+    description: Final energy consumption by the industry sector non metals from liquefied petroleum gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Oven Coke:
+    description: Final energy consumption by the industry sector non metals from oven coke 
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Petroleum Coke:
+    description: Final energy consumption by the industry sector non metals from petroleum coke
+    unit: EJ/year
+
+- Final Energy|Industry|Non Metals|Refined Petroleum Products:
+    description: Final energy consumption by the industry sector non metals from refined petroleum products
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Biofuels:
+    description: Final energy consumption by the industry sector non-ferrous metals from biofuels 
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Coal:
+    description: Final energy consumption by the industry sector non-ferrous metals from coal 
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Electricity:
+    description: Final energy consumption by the industry sector non-ferrous metals from electricity 
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Gas:
+    description: Final energy consumption by the industry sector non-ferrous metals from gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Heat:
+    description: Final energy consumption by the industry sector non-ferrous metals from heat 
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Heavy Fuel Oil:
+    description: Final energy consumption by the industry sector non-ferrous metals from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Liquefied Petroleum Gas:
+    description: Final energy consumption by the industry sector non-ferrous metals from liquefied petroleum gas
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Oven Coke:
+    description: Final energy consumption by the industry sector non-ferrous metals from oven coke 
+    unit: EJ/year
+
+- Final Energy|Industry|Non-Ferrous Metals|Refined Petroleum Products:
+    description: Final energy consumption by the industry sector non-ferrous metals from refined petroleum products 
+    unit: EJ/year
+    
+- Final Energy|Industry|Others|Biofuels:
+    description: Final energy consumption by the industry sector others from biofuels 
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Coal:
+    description: Final energy consumption by the industry sector others from coal
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Coke Oven Gas:
+    description: Final energy consumption by the industry sector others from coke oven gas
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Electricity:
+    description: Final energy consumption by the industry sector others from electricity
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Gas:
+    description: Final energy consumption by the industry sector others from gas
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Geothermal:
+    description: Final energy consumption by the industry sector others from geothermal sources
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Heat:
+    description: Final energy consumption by the industry sector others from heat 
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Heavy Fuel Oil:
+    description: Final energy consumption by the industry sector others from heavy fuel oil
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Liquefied Petroleum Gas:
+    description: Final energy consumption by the industry sector others from liquefied petroleum gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Oven Coke:
+    description: Final energy consumption by the industry sector others from oven coke 
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Petroleum Coke:
+    description: Final energy consumption by the industry sector others from petroleum coke 
+    unit: EJ/year
+
+- Final Energy|Industry|Others|Refined Petroleum Products:
+    description: Final energy consumption by the industry sector others from refined petroleum products 
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Biofuels:
+    description: Final energy consumption by the industry sector pulp and paper from biofuels 
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Coal:
+    description: Final energy consumption by the industry sector pulp and paper from coal 
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Electricity:
+    description: Final energy consumption by the industry sector pulp and paper from electricity
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Gas:
+    description: Final energy consumption by the industry sector pulp and paper from gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Heat:
+    description: Final energy consumption by the industry sector pulp and paper from heat 
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Heavy Fuel Oil:
+    description: Final energy consumption by the industry sector pulp and paper from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Liquefied Petroleum Gas:
+    description: Final energy consumption by the industry sector pulp and paper from liquefied petroleum gas 
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Oven Coke:
+    description: Final energy consumption by the industry sector pulp and paper from oven coke 
+    unit: EJ/year
+
+- Final Energy|Industry|Pulp and Paper|Refined Petroleum Products:
+    description: Final energy consumption by the industry sector pulp and paper from refined petroleum products 
+    unit: EJ/year
+
+- Final Energy|Residential|Appliances|Electricity:
+    description: Final energy consumption by the residential sector for appliances from electricity
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Biomass:
+    description: Final energy consumption by the residential sector for cooking from biomass
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Coal:
+    description: Final energy consumption by the residential sector for cooking from coal
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Diesel:
+    description: Final energy consumption by the residential sector for cooking from diesel 
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Electricity:
+    description: Final energy consumption by the residential sector for cooking from electricity 
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Gas:
+    description: Final energy consumption by the residential sector for cooking from gas 
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Kerosene:
+    description: Final energy consumption by the residential sector for cooking from kerosene 
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Liquefied Petroleum Gas:
+    description: Final energy consumption by the residential sector for cooking from liquefied petroleum gas 
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Solar:
+    description: Final energy consumption by the residential sector for cooking from solar energy 
+    unit: EJ/year
+
+- Final Energy|Residential|Cooking|Solid Biomass:
+    description: Final energy consumption by the residential sector for cooking from solid biomass 
+    unit: EJ/year
+
+- Final Energy|Residential|Cooling|Electricity:
+    description: Final energy consumption by the residential sector for cooling from electricity
+    unit: EJ/year
+
+- Final Energy|Residential|Cooling|Gas:
+    description: Final energy consumption by the residential sector for cooling from gas
+    unit: EJ/year
+
+- Final Energy|Residential|Cooling|Geothermal:
+    description: Final energy consumption by the residential sector for cooling from geothermal sources
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Biomass:
+    description: Final energy consumption by the residential sector for hot water from biomass 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Coal:
+    description: Final energy consumption by the residential sector for hot water from coal 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Diesel:
+    description: Final energy consumption by the residential sector for hot water from diesel 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Electricity:
+    description: Final energy consumption by the residential sector for hot water from electricity 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Gas:
+    description: Final energy consumption by the residential sector for hot water from gas 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Geothermal:
+    description: Final energy consumption by the residential sector for hot water from geothermal sources 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Heat:
+    description: Final energy consumption by the residential sector for hot water from heat 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Heavy Fuel Oil:
+    description: Final energy consumption by the residential sector for hot water from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Kerosene:
+    description: Final energy consumption by the residential sector for hot water from kerosene 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Liquefied Petroleum Gas:
+    description: Final energy consumption by the residential sector for hot water from liquefied petroleum gas 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Solar:
+    description: Final energy consumption by the residential sector for hot water from solar energy 
+    unit: EJ/year
+
+- Final Energy|Residential|Hot Water|Solid Biomass:
+    description: Final energy consumption by the residential sector for hot water from solid biomass 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Biomass:
+    description: Final energy consumption by the residential sector for others from biomass 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Coal:
+    description: Final energy consumption by the residential sector for others from coal 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Diesel:
+    description: Final energy consumption by the residential sector for others from diesel 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Gas:
+    description: Final energy consumption by the residential sector for others from gas 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Geothermal:
+    description: Final energy consumption by the residential sector for others from geothermal 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Heat:
+    description: Final energy consumption by the residential sector for others from heat 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Heavy Fuel Oil:
+    description: Final energy consumption by the residential sector for others from heavy fuel oil
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Kerosene:
+    description: Final energy consumption by the residential sector for others from kerosene
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Liquefied Petroleum Gas:
+    description: Final energy consumption by the residential sector for others from liquefied petroleum gas 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Solar:
+    description: Final energy consumption by the residential sector for others from solar 
+    unit: EJ/year
+
+- Final Energy|Residential|Others|Solid Biomass:
+    description: Final energy consumption by the residential sector for others from solid biomass 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Biomass:
+    description: Final energy consumption by the residential sector for space heating from biomass 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Coal:
+    description: Final energy consumption by the residential sector for space heating from coal 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Electricity:
+    description: Final energy consumption by the residential sector for space heating from electricity 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Gas:
+    description: Final energy consumption by the residential sector for space heating from gas 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Geothermal:
+    description: Final energy consumption by the residential sector for space heating from geothermal sources 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Heat:
+    description: Final energy consumption by the residential sector for space heating from heat 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Heavy Fuel Oil:
+    description: Final energy consumption by the residential sector for space heating from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Kerosene:
+    description: Final energy consumption by the residential sector for space heating from kerosene 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Liquefied Petroleum Gas:
+    description: Final energy consumption by the residential sector for space heating from liquefied petroleum gas
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Solar:
+    description: Final energy consumption by the residential sector for space heating from solar energy 
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Solid Biomass:
+    description: Final energy consumption by the residential sector for space heating from solid biomass
+    unit: EJ/year
+
+- Final Energy|Residential|Space Heating|Diesel:
+    description: Final energy consumption by the residential sector for space heating from diesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Aviation|Domestic|Aviation Gasoline:
+    description: Final energy consumption by the transportation sector for domestic aviation from aviation gasoline 
+    unit: EJ/year
+
+- Final Energy|Transportation|Aviation|Domestic|Biodiesel:
+    description: Final energy consumption by the transportation sector by aviation for aviation from biodiesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Aviation|Domestic|Hydrogen:
+    description: Final energy consumption by the transportation sector for domestic aviation from hydrogen
+    unit: EJ/year
+
+- Final Energy|Transportation|Aviation|Domestic|Jet Kerosene:
+    description: Final energy consumption by the transportation sector for domestic aviation from jet kerosene
+    unit: EJ/year
+
+- Final Energy|Transportation|Aviation|International|Aviation Gasoline:
+    description: Final energy consumption by the transportation sector for international aviation from aviation gasoline
+    unit: EJ/year
+
+- Final Energy|Transportation|Aviation|International|Biodiesel:
+    description: Final energy consumption by the transportation sector for international aviation from biodiesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Aviation|International|Hydrogen:
+    description: Final energy consumption by the transportation sector for international aviation from hydrogen
+    unit: EJ/year
+
+- Final Energy|Transportation|Aviation|International|Jet Kerosene:
+    description: Final energy consumption by the transportation sector for international aviation from jet kerosene
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|Domestic|Biodiesel:
+    description: Final energy consumption by the transportation sector for domestic navigation from biodiesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|Domestic|Coal:
+    description: Final energy consumption by the transportation sector for domestic navigation from coal
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|Domestic|Diesel:
+    description: Final energy consumption by the transportation sector for domestic navigation from diesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|Domestic|Gasoline:
+    description: Final energy consumption by the transportation sector for domestic navigation from gasoline 
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|Domestic|Heavy Fuel Oil:
+    description: Final energy consumption by the transportation sector for domestic navigation from heavy fuel oil
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|Domestic|Hydrogen:
+    description: Final energy consumption by the transportation sector for domestic navigation from hydrogen
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|International|Biodiesel:
+    description: Final energy consumption by the transportation sector for international navigation from biodiesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|International|Diesel:
+    description: Final energy consumption by the transportation sector for international navigation from diesel 
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|International|Heavy Fuel Oil:
+    description: Final energy consumption by the transportation sector for international navigation from heavy fuel oil
+    unit: EJ/year
+
+- Final Energy|Transportation|Navigation|International|Hydrogen:
+    description: Final energy consumption by the transportation sector for international navigation from hydrogen
+    unit: EJ/year
+
+- Final Energy|Transportation|Rail|Freight|Coal:
+    description: Final energy consumption by the transportation sector on rail for freight from coal
+    unit: EJ/year
+
+- Final Energy|Transportation|Rail|Freight|Diesel:
+    description: Final energy consumption by the transportation sector on rail for freight from diesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Rail|Freight|Electricity:
+    description: Final energy consumption by the transportation sector on rail for freight from electricity
+    unit: EJ/year
+
+- Final Energy|Transportation|Rail|Freight|Heavy Fuel Oil:
+    description: Final energy consumption by the transportation sector on rail for freightt from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Transportation|Rail|Passenger|Coal:
+    description: Final energy consumption by the transportation sector on rail for passenger from coal 
+    unit: EJ/year
+
+- Final Energy|Transportation|Rail|Passenger|Diesel:
+    description: Final energy consumption by the transportation sector on rail for passenger from diesel 
+    unit: EJ/year
+
+- Final Energy|Transportation|Rail|Passenger|Electricity:
+    description: Final energy consumption by the transportation sector on rail for passenger from electricity 
+    unit: EJ/year
+
+- Final Energy|Transportation|Rail|Passenger|Heavy Fuel Oil:
+    description: Final energy consumption by the transportation sector on rail for passenger from heavy fuel oil 
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Buses|Diesel:
+    description: Final energy consumption by the transportation sector on road for buses from diesel 
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Buses|Electricity:
+    description: Final energy consumption by the transportation sector on road for buses from electricity
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Buses|Ethanol:
+    description: Final energy consumption by the transportation sector on road for buses from ethanol
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Buses|FT-Diesel:
+    description: Final energy consumption by the transportation sector on road for busess from ft-diesel 
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Buses|Gas:
+    description: Final energy consumption by the transportation sector on road for buses from gas 
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Buses|Gasoline:
+    description: Final energy consumption by the transportation sector on road for buses from gasoline
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Buses|Hydrogen:
+    description: Final energy consumption by the transportation sector on road for buses from hydrogen
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Buses|Liquefied Petroleum Gas:
+    description: Final energy consumption by the transportation sector on road for buses from liquefied petroleum gas
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Cars|Diesel:
+    description: Final energy consumption by the transportation on road sector for cars from diesel 
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Cars|Electricity:
+    description: Final energy consumption by the transportation on road sector for cars from electricity
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Cars|Ethanol:
+    description: Final energy consumption by the transportation on road sector for cars from ethanol
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Cars|Gas:
+    description: Final energy consumption by the transportation on road sector for cars from gas 
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Cars|Gasoline:
+    description: Final energy consumption by the transportation on road sector for cars from gasoline 
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Cars|Hydrogen:
+    description: Final energy consumption by the transportation on road sector for cars from hydrogen
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Cars|Liquefied Petroleum Gas:
+    description: Final energy consumption by the transportation on road sector for cars from liquefied petroleum gas
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Small Vehicles|Diesel:
+    description: Final energy consumption by the transportation on road sector for small vehicles from diesel 
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Small Vehicles|Electricity:
+    description: Final energy consumption by the transportation on road sector for small vehicles from electricity
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Small Vehicles|Gasoline:
+    description: Final energy consumption by the transportation on road sector for small vehicles from gasoline
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Trucks|Diesel:
+    description: Final energy consumption by the transportation on road sector for trucks from diesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Trucks|Ethanol:
+    description: Final energy consumption by the transportation on road sector for trucks from ethanol
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Trucks|FT-Diesel:
+    description: Final energy consumption by the transportation on road sector for trucks from ft-diesel
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Trucks|Gas:
+    description: Final energy consumption by the transportation on road sector for trucks from gas
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Trucks|Gasoline:
+    description: Final energy consumption by the transportation on road sector for trucks from gasoline
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Trucks|Hydrogen:
+    description: Final energy consumption by the transportation on road sector for trucks from hydrogen
+    unit: EJ/year
+
+- Final Energy|Transportation|Road|Trucks|Liquefied Petroleum Gas:
+    description: Final energy consumption by the transportation on road sector for trucks from liquefied petroleum gas
+    unit: EJ/year

@@ -2,3 +2,227 @@
     description: Price of the CO2 from the European ETS system
     unit: US$/tCO2
     climate_neutrality_dimension: D2
+
+- Price|Carbon:
+    description: Price for any type of Carbon (also outside of EU ETS1)
+    unit: EUR_2020/tCO2
+
+- Price|Brown Coal:
+    description: Price for brown coal 
+    unit: EUR_2020/GJ
+
+- Price|Ethanol from Crop:
+    description: Price for ethanol from crop
+    unit: EUR_2020/GJ
+
+- Price|FT-Diesel:
+    description: Price for ft-diesel (diesel produced by fischer tropsch route)
+    unit: EUR_2020/GJ
+
+- Price|Hard Coal:
+    description: Price for hard coal
+    unit: EUR_2020/GJ
+
+- Price|Heavy Fuel Oil:
+    description: Price for heavy fuel oil
+    unit: EUR_2020/GJ
+
+- Price|Natural Gas:
+    description: Price for natural gas
+    unit: EUR_2020/GJ
+
+- Price|Solid Biomass:
+    description: Price for solid biomass
+    unit: EUR_2020/GJ
+
+- Price|Synthetic Hydrogen:
+    description: Price for synthetic hydrogen
+    unit: EUR_2020/GJ
+
+- Price|CAPEX|Commercial|Cooking:
+    description: Price of capital expenditures (CAPEX) in the commercial sector for cooking
+    unit: mln EUR_2005
+
+- Price|CAPEX|Commercial|Cooling:
+    description: Price of capital expenditures (CAPEX) in the commercial sector for cooling
+    unit: mln EUR_2005
+
+- Price|CAPEX|Commercial|Hot Water:
+    description: Price of capital expenditures (CAPEX) in the commercial sector for hot water
+    unit: mln EUR_2005
+
+- Price|CAPEX|Commercial|Office Equipment:
+    description: Price of capital expenditures (CAPEX) in the commercial sector for office equipment
+    unit: mln EUR_2005
+
+- Price|CAPEX|Commercial|Other:
+    description: Price of capital expenditures (CAPEX) in the commercial sector for other
+    unit: mln EUR_2005
+
+- Price|CAPEX|Commercial|Space Heating:
+    description: Price of capital expenditures (CAPEX) in the commercial sector for space heating
+    unit: mln EUR_2005
+
+- Price|CAPEX|Industry|Chemicals:
+    description: Price of capital expenditures (CAPEX) in the industry sector for chemicals
+    unit: mln EUR_2005
+
+- Price|CAPEX|Industry|Iron and Steel:
+    description: Price of capital expenditures (CAPEX) in the industry sector for iron and steel
+    unit: mln EUR_2005
+
+- Price|CAPEX|Industry|Non Metals:
+    description: Price of capital expenditures (CAPEX) in the industry sector for non metals
+    unit: mln EUR_2005
+
+- Price|CAPEX|Industry|Non-Ferrous Metals:
+    description: Price of capital expenditures (CAPEX) in the industry sector for non-ferrous metals
+    unit: mln EUR_2005
+
+- Price|CAPEX|Industry|Other Industry:
+    description: Price of capital expenditures (CAPEX) in the industry sector for other industry
+    unit: mln EUR_2005
+
+- Price|CAPEX|Industry|Pulp and Paper:
+    description: Price of capital expenditures (CAPEX) in the industry sector for pulp and paper 
+    unit: mln EUR_2005
+
+- Price|CAPEX|Residential|Cooking:
+    description: Price of capital expenditures (CAPEX) in the residential sector for cooking 
+    unit: mln EUR_2005
+
+- Price|CAPEX|Residential|Cooling:
+    description: Price of capital expenditures (CAPEX) in the residential sector for cooling
+    unit: mln EUR_2005
+
+- Price|CAPEX|Residential|Hot Water:
+    description: Price of capital expenditures (CAPEX) in the residential sector for hot water 
+    unit: mln EUR_2005
+
+- Price|CAPEX|Residential|Others:
+    description: Price of capital expenditures (CAPEX) in the residential sector for others 
+    unit: mln EUR_2005
+
+- Price|CAPEX|Residential|Space Heating:
+    description: Price of capital expenditures (CAPEX) in the residential sector for space heating
+    unit: mln EUR_2005
+
+- Price|CAPEX|Residential|Appliances:
+    description: Price of capital expenditures (CAPEX) in the residential sector for appliances
+    unit: mln EUR_2005
+
+- Price|CAPEX|Transportation|Navigation|Domestic:
+    description: Price of capital expenditures (CAPEX) in the transportation sector for domestic navigation
+    unit: mln EUR_2005
+
+- Price|CAPEX|Transportation|Navigation|International:
+    description: Price of capital expenditures (CAPEX) in the transportation sector for international navigation
+    unit: mln EUR_2005
+
+- Price|CAPEX|Transportation|Road|Buses:
+    description: Price of capital expenditures (CAPEX) in the transportation sector for buses on road
+    unit: mln EUR_2005
+
+- Price|CAPEX|Transportation|Road|Cars:
+    description: Price of capital expenditures (CAPEX) in the transportation sector for cars on road 
+    unit: mln EUR_2005
+
+- Price|CAPEX|Transportation|Road|Small Vehicles:
+    description: Price of capital expenditures (CAPEX) in the transportation sector for small vehicles on road 
+    unit: mln EUR_2005
+
+- Price|CAPEX|Transportation|Road|Trucks:
+    description: Price of capital expenditures (CAPEX) in the transportation sector for trucks on road
+    unit: mln EUR_2005
+
+- Price|OPEX|Commercial|Cooking:
+    description: Price of operational expenditures (OPEX) in the commercial sector for cooking
+    unit: mln EUR_2005
+
+- Price|OPEX|Commercial|Cooling:
+    description: Price of operational expenditures (OPEX) in the commercial sector for cooling
+    unit: mln EUR_2005
+
+- Price|OPEX|Commercial|Hot Water:
+    description: Price of operational expenditures (OPEX) in the commercial sector for hot water
+    unit: mln EUR_2005
+
+- Price|OPEX|Commercial|Office Equipment:
+    description: Price of operational expenditures (OPEX) in the commercial sector for office equipment
+    unit: mln EUR_2005
+
+- Price|OPEX|Commercial|Other:
+    description: Price of operational expenditures (OPEX) in the commercial sector for other
+    unit: mln EUR_2005
+
+- Price|OPEX|Commercial|Space Heating:
+    description: Price of operational expenditures (OPEX) in the commercial sector for space heating
+    unit: mln EUR_2005
+
+- Price|OPEX|Industry|Chemicals:
+    description: Price of operational expenditures (OPEX) in the industry sector for chemicals
+    unit: mln EUR_2005
+
+- Price|OPEX|Industry|Iron and Steel:
+    description: Price of operational expenditures (OPEX) in the industry sector for iron and steel
+    unit: mln EUR_2005
+
+- Price|OPEX|Industry|Non-Ferrous Metals:
+    description: Price of operational expenditures (OPEX) in the industry sector for non-ferrous metals
+    unit: mln EUR_2005
+
+- Price|OPEX|Industry|Other Industry:
+    description: Price of operational expenditures (OPEX) in the industry sector for other industry
+    unit: mln EUR_2005
+
+- Price|OPEX|Industry|Pulp and Paper:
+    description: Price of operational expenditures (OPEX) in the industry sector for pulp and paper
+    unit: mln EUR_2005
+
+- Price|OPEX|Industy|Non Metals:
+    description: Price of operational expenditures (OPEX) in the industy sector for non metals
+    unit: mln EUR_2005
+
+- Price|OPEX|Residential|Appliances:
+    description: Price of operational expenditures (OPEX) in the residential sector for appliances
+    unit: mln EUR_2005
+
+- Price|OPEX|Residential|Cooking:
+    description: Price of operational expenditures (OPEX) in the residential sector for cooking
+    unit: mln EUR_2005
+
+- Price|OPEX|Residential|Cooling:
+    description: Price of operational expenditures (OPEX) in the residential sector for cooling
+    unit: mln EUR_2005
+
+- Price|OPEX|Residential|Hot Water:
+    description: Price of operational expenditures (OPEX) in the residential sector for hot water
+    unit: mln EUR_2005
+
+- Price|OPEX|Residential|Other:
+    description: Price of operational expenditures (OPEX) in the residential sector for other
+    unit: mln EUR_2005
+
+- Price|OPEX|Residential|Space Heating:
+    description: Price of operational expenditures (OPEX) in the residential sector for space heating
+    unit: mln EUR_2005
+
+- Price|OPEX|Transportation|Navigation|Domestic:
+    description: Price of operational expenditures (OPEX) in the transportation sector for domestic navigation
+    unit: mln EUR_2005
+
+- Price|OPEX|Transportation|Navigation|International:
+    description: Price of operational expenditures (OPEX) in the transportation sector for international navigation
+    unit: mln EUR_2005
+
+- Price|OPEX|Transportation|Road|Bus:
+    description: Price of operational expenditures (OPEX) in the transportation sector for bus road
+    unit: mln EUR_2005
+
+- Price|OPEX|Transportation|Road|Small Vehicles:
+    description: Price of operational expenditures (OPEX) in the transportation sector for small vehicles road
+    unit: mln EUR_2005
+
+- Price|OPEX|Transportation|Road|Trucks:
+    description: Price of operational expenditures (OPEX) in the transportation sector for trucks road
+    unit: mln EUR_2005

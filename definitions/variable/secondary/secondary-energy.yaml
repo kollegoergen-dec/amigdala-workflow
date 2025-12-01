@@ -12,3 +12,65 @@
     description: Secondary energy consumption of other (gasoil, ethane, CC4+,etc…) for steamcracking (production of high value chemicals)
     unit: ktpa
     climate_neutrality_dimension: D3
+
+- Secondary Energy|Biomass|Bio-SynGas:
+    description: Production of bio syngas from biomass
+    unit: EJ/year
+
+- Secondary Energy|Biomass|Charcoal:
+    description: Production of charcoal from biomass
+    unit: EJ/year
+
+- Secondary Energy|Biomass|Ethanol from Crop:
+    description: Production of ethanol form crops (biomass)
+    unit: EJ/year
+
+- Secondary Energy|Electricity|Biomass [Share]:
+    description: Share of electricity produced by biomass in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Brown Coal [Share]:
+    description: Share of electricity produced by brown coal in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Gas [Share]:
+    description: Share of electricity produced by gas in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Geothermal [Share]:
+    description: Share of electricity produced by geothermal sources in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Hydro [Share]:
+    description: Share of electricity produced by hydrological sources in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Hydrogen [Share]:
+    description: Share of electricity produced by hydrogen in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Nuclear [Share]:
+    description: Share of electricity produced by nuclear sources in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Oil [Share]:
+    description: Share of electricity produced by oil in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Solar [Share]:
+    description: Share of electricity produced by solar sources in electricity mix in secondary energy demand 
+    unit: '%'
+    range: [ 0,100 ]
+
+- Secondary Energy|Electricity|Wind [Share]:
+    description: Share of electricity produced by wind in electricity mix in secondary energy demand
+    unit: '%'
+    range: [ 0,100 ]

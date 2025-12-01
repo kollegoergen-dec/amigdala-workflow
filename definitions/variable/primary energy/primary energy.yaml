@@ -1,0 +1,44 @@
+# - Primary Energy|Biomass|1st Generation:
+#     description: Primary energy consumption from 1st generation biofuel crops (e.g., sugar cane, rapeseed oil, maize, sugar beet)
+#     unit: EJ/year
+
+# - Primary Energy|Biomass|Energy Crops:
+#     description: Primary energy consumption from 2nd generation bioenergy crops (short-rotation grasses and trees)
+#     unit: EJ/year
+
+# - Primary Energy|Biomass|Fuelwood:
+#     description: Primary energy consumption from fuelwood
+#     unit: EJ/year
+
+# - Primary Energy|Biomass|Residues:
+#     description: Primary energy consumption from from residues (crop, forest, other)
+#     unit: EJ/year
+
+# - Primary Energy|Biomass|Other:
+#     description: Primary energy consumption from other feedstocks
+#     unit: EJ/year
+
+- Primary Energy|Biomass|Energy Crops:
+    description: Primary energy input of biomass for bioenergy crops
+    unit: EJ/year
+
+- Primary Energy|Biomass|Gases:
+    description: Primary energy input of biomass for conversion to gaseous fuels not including hydrogen
+    unit: EJ/year
+
+- Primary Energy|Biomass|Industrial Waste:
+    description: Primary energy input from industrial waste
+    unit: EJ/year
+
+- Primary Energy|Biomass|Liquids:
+    description: Primary energy input of biomass for conversion to refined liquid fuels including oil products, fuels from gas and coal, synthetic fossil fuels and biofuels
+    unit: EJ/year
+
+- Primary Energy|Biomass|Municipal Waste:
+    description: Primary energy input from municipal waste
+    unit: EJ/year
+
+- Primary Energy|Biomass|Solids:
+    description: Primary energy input of biomass for conversion to solid fuels
+    unit: EJ/year
+
